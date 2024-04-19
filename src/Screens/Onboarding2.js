@@ -1,18 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
-import React, { useEffect } from 'react'
+import React from 'react'
 
-export default function Onboarding({ navigation }) {
-    useEffect(() => {
-        const timeOut = setTimeout(() => {
-            navigation.navigate("Onboarding2")
-        }, 3000)
-
-        return () => clearTimeout(timeOut)
-    }, [navigation])
-
+export default function Onboarding2() {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Onboarding 01</Text>
+            <Text style={styles.text}>Onboarding 02</Text>
         </View>
     )
 }
