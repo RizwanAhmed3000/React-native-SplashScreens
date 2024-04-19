@@ -11,7 +11,7 @@ const MainNavigation = () => {
     return (
         <NavigationContainer>
             <Stack.Navigator screenOptions={{ headerShown: false }}>
-                <Stack.Screen name="Splash" component={Splash} />
+                <Stack.Screen name="Splash" component={Splash} options={{ animation: "fade" }}/>
                 <Stack.Screen name="Onboarding" component={Onboarding} />
             </Stack.Navigator>
         </NavigationContainer>
