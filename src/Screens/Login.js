@@ -100,7 +100,6 @@ const styles = StyleSheet.create({
         padding: 30,
         display: "flex",
         height: "100%",
-        // alignItems: "center",
         justifyContent: "center",
     },
     formContainer: {
@@ -121,7 +120,7 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         padding: 10,
         width: "100%",
-        borderColor: "#BECEFB",
+        borderColor: "orange",
         borderRadius: 5
     },
 })
