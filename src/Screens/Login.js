@@ -57,6 +57,7 @@ const Login = ({ navigation }) => {
         const isPassword = validatePassword()
         if (isEmail && isPassword) {
             isValid = true
+            navigation.navigate('Voice')
         } else {
             isValid = false
         }
